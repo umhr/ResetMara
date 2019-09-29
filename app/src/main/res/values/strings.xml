@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ResetMara</string>
+    <string name="start">開始</string>
+    <string name="end">終了</string>
+    <string name="x">430</string>
+    <string name="y">530</string>
+    <string name="tap">tap</string>
+</resources>
