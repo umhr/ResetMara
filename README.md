@@ -1,6 +1,6 @@
 # ResetMara
 ![](Screenshot_1569746802.png)
-![](kaisetu.png?raw=true)
+![](kaisetu.png)
 ## Use
 > ./adb shell
 
