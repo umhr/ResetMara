@@ -1,0 +1,4 @@
+#Thu May 06 13:23:17 JST 2021
+base.0=D\:\\GitHub\\ResetMara\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

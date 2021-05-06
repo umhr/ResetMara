@@ -18,15 +18,16 @@ public class AsyncInputConnect extends AsyncTask<String, Void, String> {
         try {
             // サーバーへ接続
             connection = new Socket("127.0.0.1", 8081);
-
+            Log.println(Log.DEBUG,"","サーバーと接続をします。");
             writer = new BufferedWriter(new OutputStreamWriter(connection.getOutputStream()));
 
             for (String str : string) {
                 writer.write(str);
                 writer.newLine();
             }
-
             writer.flush();
+
+            // todo 返り値を受け取る
 
         } catch (UnknownHostException e) {
             e.printStackTrace();
@@ -42,6 +43,7 @@ public class AsyncInputConnect extends AsyncTask<String, Void, String> {
                 }
                 if (connection != null) {
                     connection.close();
+                    Log.println(Log.DEBUG,"","サーバーとの接続を閉じました。");
                 }
             } catch (IOException e) {
                 e.printStackTrace();

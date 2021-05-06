@@ -49,4 +49,22 @@
         android:layout_height="wrap_content"
         android:text="@string/end" />
 
+    <Button
+        android:id="@+id/button_volumeup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KEYCODE_VOLUME_UP" />
+
+    <Button
+        android:id="@+id/button_volumedown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KEYCODE_VOLUME_DOWN" />
+
+    <Button
+        android:id="@+id/button_volumemute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="shell input keyevent KEYCODE_DPAD_UP" />
+
 </LinearLayout>
